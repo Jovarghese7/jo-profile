@@ -1,0 +1,113 @@
+#pro-img{
+    width: 10rem;
+    height: 10rem;
+}
+.about-section{
+    background-image: url(./dark-low-poly-background_1048-7971.jpg);
+}
+.navbar{
+    background-color: black;
+}
+body{
+    background-color: black;
+}
+a.navbar-brand.ml-2.font-weight-bold {
+    font-size: 30px;
+}
+.skill-section .image{
+    width: 320px;
+    height: 180px;
+    border-radius: 10px;
+}
+.skill-section .images{
+    width: 320px;
+    height: 180px;
+    border-radius: 10px;
+}
+.hobbie-section .images{
+    width: 320px;
+    height: 180px;
+    border-radius: 10px;
+}
+.hobbie-section .image{
+    width: 320px;
+    height: 180px;
+    border-radius: 10px;
+}
+   
+.contact-section message{
+    height: 150px;
+}
+.navbar-toggler{
+    transition: 1s;
+}
+@media screen and (max-width: 640px) {
+    .hobbie-section .image {
+        width: 280px;
+        height: 155px;
+        border-radius: 10px;
+    }
+    .hobbie-section .images {
+        width: 280px;
+        height: 155px;
+        border-radius: 10px;
+    }
+    .skill-section .image {
+        width: 280px;
+        height: 155px;
+        border-radius: 10px;
+    }
+    .skill-section .images {
+        width: 280px;
+        height: 155px;
+        border-radius: 10px;
+    }
+
+    }
+
+    @media only screen and (max-width: 600px){
+        .hobbie-section h5{
+            font-size: 16px;
+        }
+        .skill-section h5{
+            font-size: 16px;
+        }
+        .hobbie-section .image {
+            width: 152px;
+            height: 103px;
+            border-radius: 10px;
+        }
+        .hobbie-section .images {
+            width: 152px;
+            height: 103px;
+            border-radius: 10px;
+        }
+        .skill-section .image {
+            width: 152px;
+            height: 103px;
+            border-radius: 10px;
+        }
+        .skill-section .images {
+            width: 152px;
+            height: 103px;
+            border-radius: 10px;
+        }
+        .header-section .nav-link{
+            font-size: 10px;
+        }
+
+    }
+    
+  
+
+
+    
+  
+@media screen and (max-width: 480px) {
+    
+    
+    a.navbar-brand.ml-2.font-weight-bold {
+        font-size: 26px;
+    }
+    
+  }
