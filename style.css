@@ -111,7 +111,57 @@ a.navbar-brand.ml-2.font-weight-bold {
 .navbar-toggler{
     transition: 1s;
 }
+@media only screen and (max-width: 1024px){
+    .about-section ul{
+        padding-left: 17px;
+    }
+}
+@media only screen and (max-width: 823px){
+    .about-section ul{
+        padding-left: 220px;
+    }
+}
+@media only screen and (max-width: 768px){
+    .about-section ul{
+        padding-left: 218px;
+    }
+}
+@media only screen and (max-width: 731px){
+    .about-section ul{
+        padding-left: 125px;
+    }
+    .hobbie-section h5{
+        font-size: 16px;
+    }
+    .skill-section h5{
+        font-size: 16px;
+    }
+    .hobbie-section .image {
+        width: 240px;
+        height: 130px;
+        border-radius: 10px;
+    }
+    .hobbie-section .images {
+        width: 240px;
+        height: 130px;
+        border-radius: 10px;
+    }
+    .skill-section .image {
+        width: 240px;
+        height: 130px;
+        border-radius: 10px;
+    }
+    .skill-section .images {
+        width: 240px;
+        height: 130px;
+        border-radius: 10px;
+    }
+
+}
 @media screen and (max-width: 640px) {
+    .about-section ul{
+        padding-left: 127px;
+    }
     .hobbie-section .image {
         width: 280px;
         height: 155px;
@@ -178,7 +228,181 @@ a.navbar-brand.ml-2.font-weight-bold {
     
     a.navbar-brand.ml-2.font-weight-bold {
         font-size: 26px;
-    .social-media {text-align: center;
+   
     }
     
+  }
+  @media only screen and (max-width: 414px){
+    a.navbar-brand.ml-2.font-weight-bold {
+        font-size: 26px;
+    }
+    .about-section ul{
+        padding-left: 62px;
+    }
+    .hobbie-section h5{
+        font-size: 16px;
+    }
+    .skill-section h5{
+        font-size: 16px;
+    }
+    .hobbie-section .image {
+        width: 174px;
+        height: 98px;
+        border-radius: 10px;
+    }
+    .hobbie-section .images {
+        width: 174px;
+        height: 98px;
+        border-radius: 10px;
+    }
+    .skill-section .image {
+        width: 174px;
+        height: 98px;
+        border-radius: 10px;
+    }
+    .skill-section .images {
+        width: 174px;
+        height: 98px;
+        border-radius: 10px;
+    }
+
+  }
+
+  @media only screen and (max-width: 411px){
+    a.navbar-brand.ml-2.font-weight-bold {
+        font-size: 26px;
+    }
+    .hobbie-section h5{
+        font-size: 16px;
+    }
+    .skill-section h5{
+        font-size: 16px;
+    }
+    .hobbie-section .image {
+        width: 254px;
+        height: 98px;
+        border-radius: 10px;
+    }
+    .hobbie-section .images {
+        width: 254px;
+        height: 98px;
+        border-radius: 10px;
+    }
+    .skill-section .image {
+        width: 254px;
+        height: 98px;
+        border-radius: 10px;
+    }
+    .skill-section .images {
+        width: 254px;
+        height: 98px;
+        border-radius: 10px;
+    }
+
+  }
+
+  @media only screen and (max-width: 375px){
+    a.navbar-brand.ml-2.font-weight-bold {
+        font-size: 26px;
+    }
+    .hobbie-section h5{
+        font-size: 16px;
+    }
+    .skill-section h5{
+        font-size: 16px;
+    }
+    .hobbie-section .image {
+        width: 254px;
+        height: 98px;
+        border-radius: 10px;
+    }
+    .hobbie-section .images {
+        width: 254px;
+        height: 98px;
+        border-radius: 10px;
+    }
+    .skill-section .image {
+        width: 254px;
+        height: 98px;
+        border-radius: 10px;
+    }
+    .skill-section .images {
+        width: 254px;
+        height: 98px;
+        border-radius: 10px;
+    }
+
+  }
+  @media only screen and (max-width: 360px){
+      .about-section ul{
+          padding-left: 38px;
+      }
+  }
+  @media only screen and (max-width: 320px){
+    a.navbar-brand.ml-2.font-weight-bold {
+        font-size: 26px;
+    }
+    .hobbie-section h5{
+        font-size: 16px;
+    }
+    .skill-section h5{
+        font-size: 16px;
+    }
+    .hobbie-section .image {
+        width: 254px;
+        height: 90px;
+        border-radius: 10px;
+    }
+    .hobbie-section .images {
+        width: 254px;
+        height: 90px;
+        border-radius: 10px;
+    }
+    .skill-section .image {
+        width: 254px;
+        height: 90px;
+        border-radius: 10px;
+    }
+    .skill-section .images {
+        width: 254px;
+        height: 90px;
+        border-radius: 10px;
+    }
+
+  }
+
+  @media only screen and (max-width: 320px){
+      .about-section ul{
+          padding-left: 18px;
+      }
+    a.navbar-brand.ml-2.font-weight-bold {
+        font-size: 20px;
+    }
+    .hobbie-section h5{
+        font-size: 12px;
+    }
+    .skill-section h5{
+        font-size: 12px;
+    }
+    .hobbie-section .image {
+        width: 254px;
+        height: 71px;
+        border-radius: 10px;
+    }
+    .hobbie-section .images {
+        width: 254px;
+        height: 71px;
+        border-radius: 10px;
+    }
+    .skill-section .image {
+        width: 254px;
+        height: 71px;
+        border-radius: 10px;
+    }
+    .skill-section .images {
+        width: 254px;
+        height: 71px;
+        border-radius: 10px;
+    }
+
   }
